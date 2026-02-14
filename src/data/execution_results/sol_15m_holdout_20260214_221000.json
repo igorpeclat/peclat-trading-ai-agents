@@ -1,0 +1,37 @@
+{
+  "test": "sol_15m_holdout",
+  "timestamp": "20260214_221000",
+  "config": {
+    "prob": 0.55,
+    "persist": 1,
+    "rsi_entry": 55,
+    "rsi_exit": 45,
+    "stop_pct": 2.0,
+    "tp_pct": 2.5,
+    "vol_thr": 1.0,
+    "atr_max_pct": 0.9,
+    "sma_fast": 30,
+    "sma_slow": 50,
+    "rsi_period": 14,
+    "atr_period": 14,
+    "fee": 0.0008,
+    "slip": 0.0003
+  },
+  "train_bars": 4000,
+  "holdout_bars": 1000,
+  "train_period": [
+    "2025-12-23 20:45:00+00:00",
+    "2026-02-03 12:30:00+00:00"
+  ],
+  "holdout_period": [
+    "2026-02-03 12:45:00+00:00",
+    "2026-02-13 22:30:00+00:00"
+  ],
+  "total_return_pct": -3.7429,
+  "annualized_return_pct": -73.7286,
+  "sharpe": -16.5241,
+  "max_drawdown_pct": 4.228,
+  "trades": 20,
+  "win_rate_pct": 5.26,
+  "verdict": "\u274c NO-GO"
+}

@@ -1,0 +1,57 @@
+{
+  "test": "sol_15m_holdout_rolling_comparison",
+  "timestamp": "20260214_222113",
+  "config": {
+    "prob": 0.55,
+    "persist": 1,
+    "rsi_entry": 55,
+    "rsi_exit": 45,
+    "stop_pct": 2.0,
+    "tp_pct": 2.5,
+    "vol_thr": 1.0,
+    "atr_max_pct": 0.9,
+    "sma_fast": 30,
+    "sma_slow": 50,
+    "rsi_period": 14,
+    "atr_period": 14,
+    "fee": 0.0008,
+    "slip": 0.0003
+  },
+  "retrain_every": 200,
+  "train_window": 2000,
+  "holdout_bars": 1000,
+  "holdout_period": [
+    "2026-02-03 12:45:00+00:00",
+    "2026-02-13 22:30:00+00:00"
+  ],
+  "frozen": {
+    "total_return_pct": -3.7429,
+    "annualized_return_pct": -73.7286,
+    "sharpe": -16.5241,
+    "max_drawdown_pct": 4.228,
+    "trades": 20,
+    "win_rate_pct": 5.26,
+    "verdict": "NO-GO",
+    "bars_in_position": 25
+  },
+  "rolling": {
+    "total_return_pct": -5.7687,
+    "annualized_return_pct": -87.5319,
+    "sharpe": -11.2573,
+    "max_drawdown_pct": 7.4918,
+    "trades": 48,
+    "win_rate_pct": 23.4,
+    "verdict": "NO-GO",
+    "bars_in_position": 41
+  },
+  "incremental": {
+    "total_return_pct": -5.9796,
+    "annualized_return_pct": -88.4733,
+    "sharpe": -12.195,
+    "max_drawdown_pct": 7.6988,
+    "trades": 44,
+    "win_rate_pct": 23.26,
+    "verdict": "NO-GO",
+    "bars_in_position": 37
+  }
+}
