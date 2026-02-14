@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "return_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/home/igorpeclat/Documents/moon-dev-ai-agents/src/agents/test_execution/test_backtest_v2.py\", line 1, in <module>\n    import pandas as pd\nModuleNotFoundError: No module named 'pandas'\n",
+  "execution_time": 0.017998695373535156,
+  "timestamp": "2026-02-13T21:38:19",
+  "runner": "python-fallback"
+}

@@ -1,0 +1,13 @@
+{
+  "symbol": "SOL",
+  "timeframe": "1h",
+  "bars": 2000,
+  "total_return_pct": -18.33776559387865,
+  "annualized_return_pct": -58.823150675037915,
+  "sharpe": -2.8513392296703772,
+  "max_drawdown_pct": 21.54973465582586,
+  "trades": 118,
+  "win_rate_pct": 40.17094017094017,
+  "bull_state": 1,
+  "bear_state": 0
+}

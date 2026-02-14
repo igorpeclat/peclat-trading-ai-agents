@@ -1,0 +1,16 @@
+{
+  "params": {
+    "prob": 0.55,
+    "persist": 1,
+    "stop": 2.0,
+    "tp": 2.5,
+    "vol_thr": 1.05,
+    "atr_max": 0.8
+  },
+  "oos_avg_return_pct": -1.2012048619720495,
+  "oos_avg_win_rate_pct": 11.111111111111109,
+  "oos_avg_trades": 3.0,
+  "oos_avg_sharpe": -8.306831989227932,
+  "oos_avg_max_dd_pct": 1.867217074350025,
+  "oos_positive_folds": 0
+}

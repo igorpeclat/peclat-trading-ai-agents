@@ -1,0 +1,42 @@
+{
+  "generated_at_utc": "2026-02-13T22:41:45.936938+00:00",
+  "source": "hyperliquid candleSnapshot",
+  "datasets": [
+    {
+      "file": "src/data/ohlcv/hyperliquid/BTC_USD_15m_hyperliquid.csv",
+      "rows": 5000,
+      "start": "2025-12-23 20:45:00+00:00",
+      "end": "2026-02-13 22:30:00+00:00"
+    },
+    {
+      "file": "src/data/ohlcv/hyperliquid/BTC_USD_1h_hyperliquid.csv",
+      "rows": 5000,
+      "start": "2025-07-20 15:00:00+00:00",
+      "end": "2026-02-13 22:00:00+00:00"
+    },
+    {
+      "file": "src/data/ohlcv/hyperliquid/SOL_USD_15m_hyperliquid.csv",
+      "rows": 5000,
+      "start": "2025-12-23 20:45:00+00:00",
+      "end": "2026-02-13 22:30:00+00:00"
+    },
+    {
+      "file": "src/data/ohlcv/hyperliquid/SOL_USD_1h_hyperliquid.csv",
+      "rows": 5000,
+      "start": "2025-07-20 15:00:00+00:00",
+      "end": "2026-02-13 22:00:00+00:00"
+    },
+    {
+      "file": "src/data/ohlcv/hyperliquid/ETH_USD_15m_hyperliquid.csv",
+      "rows": 5000,
+      "start": "2025-12-23 20:45:00+00:00",
+      "end": "2026-02-13 22:30:00+00:00"
+    },
+    {
+      "file": "src/data/ohlcv/hyperliquid/ETH_USD_1h_hyperliquid.csv",
+      "rows": 5000,
+      "start": "2025-07-20 15:00:00+00:00",
+      "end": "2026-02-13 22:00:00+00:00"
+    }
+  ]
+}

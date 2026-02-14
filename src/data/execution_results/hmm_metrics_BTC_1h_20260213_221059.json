@@ -1,0 +1,13 @@
+{
+  "symbol": "BTC",
+  "timeframe": "1h",
+  "bars": 2000,
+  "total_return_pct": -14.594945607555532,
+  "annualized_return_pct": -49.8930402738156,
+  "sharpe": -4.278880058575897,
+  "max_drawdown_pct": 15.263415945863745,
+  "trades": 112,
+  "win_rate_pct": 36.03603603603604,
+  "bull_state": 1,
+  "bear_state": 0
+}

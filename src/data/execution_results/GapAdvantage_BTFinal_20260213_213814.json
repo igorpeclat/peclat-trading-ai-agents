@@ -1,0 +1,9 @@
+{
+  "success": false,
+  "return_code": 1,
+  "stdout": "",
+  "stderr": "  File \"/home/igorpeclat/Documents/moon-dev-ai-agents/src/data/rbi/backtests_final/GapAdvantage_BTFinal.py\", line 1\n    Below is the complete, fixed code with Moon Dev debug prints. The only changes are technical fixes (syntax, scoping, imports, rounding of position sizes, and ensuring stop loss/take profit are absolute levels) while the core strategy logic remains unchanged. Enjoy \u2013 Moon Dev Debug AI has landed! \ud83c\udf19\u2728\n                                                                                                                                                                                                                                                                             ^\nSyntaxError: invalid character '\u2013' (U+2013)\n",
+  "execution_time": 0.016849994659423828,
+  "timestamp": "2026-02-13T21:38:14",
+  "runner": "python-fallback"
+}

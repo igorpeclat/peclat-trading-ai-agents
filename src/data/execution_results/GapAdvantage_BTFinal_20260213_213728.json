@@ -1,0 +1,8 @@
+{
+  "success": false,
+  "return_code": 1,
+  "stdout": "",
+  "stderr": "\nEnvironmentLocationNotFound: Not a conda environment: /home/igorpeclat/miniconda3/envs/tflow\n\n",
+  "execution_time": 0.335389,
+  "timestamp": "2026-02-13T21:37:28.543485"
+}
