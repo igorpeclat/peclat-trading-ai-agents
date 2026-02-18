@@ -1,0 +1,63 @@
+{
+  "test": "op_hedged_short_backtest",
+  "coin": "OP",
+  "timestamp": "20260218_214524",
+  "data_bars": 5000,
+  "data_period": [
+    "2025-07-25 14:00:00+00:00",
+    "2026-02-18 21:00:00+00:00"
+  ],
+  "months": 6.8,
+  "buy_and_hold_pct": -75.43,
+  "btc_buy_and_hold_pct": -42.27,
+  "variants": [
+    {
+      "strategy": "1. Naked Short",
+      "total_return_pct": -13.21,
+      "sharpe": -0.43,
+      "max_dd_pct": 22.75,
+      "trades": 23,
+      "win_rate_pct": 60.9,
+      "avg_win_pct": 3.329,
+      "avg_loss_pct": -6.251,
+      "worst_trade_pct": -13.084,
+      "pct_in_market": 22.9
+    },
+    {
+      "strategy": "2. Short + 3% Stop",
+      "total_return_pct": -1.17,
+      "sharpe": 0.11,
+      "max_dd_pct": 21.98,
+      "trades": 45,
+      "win_rate_pct": 44.4,
+      "avg_win_pct": 4.793,
+      "avg_loss_pct": -3.745,
+      "worst_trade_pct": -4.78,
+      "pct_in_market": 19.3
+    },
+    {
+      "strategy": "3. Sized 10% + Stop",
+      "total_return_pct": 0.19,
+      "sharpe": 0.11,
+      "max_dd_pct": 2.41,
+      "trades": 45,
+      "win_rate_pct": 44.4,
+      "avg_win_pct": 0.479,
+      "avg_loss_pct": -0.374,
+      "worst_trade_pct": -0.478,
+      "pct_in_market": 19.3
+    },
+    {
+      "strategy": "4. Hedged + Sized",
+      "total_return_pct": -0.15,
+      "sharpe": -0.06,
+      "max_dd_pct": 2.13,
+      "trades": 45,
+      "win_rate_pct": 44.4,
+      "avg_win_pct": 0.436,
+      "avg_loss_pct": -0.353,
+      "worst_trade_pct": -0.468,
+      "pct_in_market": 19.3
+    }
+  ]
+}

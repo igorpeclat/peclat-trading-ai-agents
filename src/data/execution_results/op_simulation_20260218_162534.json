@@ -1,0 +1,143 @@
+{
+  "test": "op_hyperliquid_simulation",
+  "coin": "OP",
+  "timestamp": "20260218_162534",
+  "data_bars": 2881,
+  "data_period": [
+    "2026-01-19 16:15:00+00:00",
+    "2026-02-18 16:15:00+00:00"
+  ],
+  "buy_and_hold_pct": -40.89,
+  "strategies": [
+    {
+      "strategy": "SMA Cross 20/50",
+      "total_return_pct": -29.73,
+      "sharpe": -7.12,
+      "max_dd_pct": 30.61,
+      "trades": 38,
+      "win_rate_pct": 26.3,
+      "pct_in_market": 41.2,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "RSI Reversion",
+      "total_return_pct": -21.75,
+      "sharpe": -2.59,
+      "max_dd_pct": 38.53,
+      "trades": 22,
+      "win_rate_pct": 50.0,
+      "pct_in_market": 60.6,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "Momentum ROC10",
+      "total_return_pct": -48.95,
+      "sharpe": -17.68,
+      "max_dd_pct": 48.95,
+      "trades": 165,
+      "win_rate_pct": 21.2,
+      "pct_in_market": 16.5,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "MACD Signal Cross",
+      "total_return_pct": -44.07,
+      "sharpe": -13.68,
+      "max_dd_pct": 44.99,
+      "trades": 104,
+      "win_rate_pct": 19.2,
+      "pct_in_market": 26.3,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "HMM Adaptive",
+      "total_return_pct": -22.4,
+      "sharpe": -10.14,
+      "max_dd_pct": 22.85,
+      "trades": 108,
+      "win_rate_pct": 40.7,
+      "pct_in_market": 14.9,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "Bollinger Reversion",
+      "total_return_pct": -12.04,
+      "sharpe": -1.92,
+      "max_dd_pct": 26.06,
+      "trades": 51,
+      "win_rate_pct": 62.7,
+      "pct_in_market": 27.5,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "Donchian Breakout",
+      "total_return_pct": -34.88,
+      "sharpe": -7.79,
+      "max_dd_pct": 36.29,
+      "trades": 36,
+      "win_rate_pct": 25.0,
+      "pct_in_market": 42.5,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "EMA Triple 8/21/55",
+      "total_return_pct": -27.9,
+      "sharpe": -8.22,
+      "max_dd_pct": 30.54,
+      "trades": 42,
+      "win_rate_pct": 21.4,
+      "pct_in_market": 28.7,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "VWAP Reversion",
+      "total_return_pct": 0.62,
+      "sharpe": 0.53,
+      "max_dd_pct": 26.51,
+      "trades": 42,
+      "win_rate_pct": 73.8,
+      "pct_in_market": 47.5,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "Stochastic Oversold",
+      "total_return_pct": -12.39,
+      "sharpe": -1.62,
+      "max_dd_pct": 34.49,
+      "trades": 58,
+      "win_rate_pct": 60.3,
+      "pct_in_market": 37.0,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "SMA Cross SHORT",
+      "total_return_pct": 13.09,
+      "sharpe": 2.05,
+      "max_dd_pct": 22.5,
+      "trades": 38,
+      "win_rate_pct": 39.5,
+      "pct_in_market": 57.1,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "RSI Overbought SHORT",
+      "total_return_pct": 11.82,
+      "sharpe": 3.98,
+      "max_dd_pct": 7.29,
+      "trades": 10,
+      "win_rate_pct": 80.0,
+      "pct_in_market": 15.8,
+      "verdict": "\u2705 GO"
+    },
+    {
+      "strategy": "Momentum SHORT",
+      "total_return_pct": -38.91,
+      "sharpe": -9.36,
+      "max_dd_pct": 41.19,
+      "trades": 177,
+      "win_rate_pct": 29.4,
+      "pct_in_market": 19.4,
+      "verdict": "\u274c NO-GO"
+    }
+  ]
+}

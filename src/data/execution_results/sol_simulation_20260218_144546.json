@@ -1,0 +1,62 @@
+{
+  "test": "sol_hyperliquid_simulation",
+  "timestamp": "20260218_144546",
+  "data_bars": 2881,
+  "data_period": [
+    "2026-01-19 14:45:00+00:00",
+    "2026-02-18 14:45:00+00:00"
+  ],
+  "buy_and_hold_pct": -38.25,
+  "strategies": [
+    {
+      "strategy": "SMA Cross 20/50",
+      "total_return_pct": -5.27,
+      "sharpe": -1.17,
+      "max_dd_pct": 11.72,
+      "trades": 28,
+      "win_rate_pct": 21.4,
+      "pct_in_market": 41.2,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "RSI Reversion",
+      "total_return_pct": -31.91,
+      "sharpe": -4.83,
+      "max_dd_pct": 43.86,
+      "trades": 16,
+      "win_rate_pct": 56.2,
+      "pct_in_market": 67.0,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "Momentum ROC10",
+      "total_return_pct": -28.09,
+      "sharpe": -10.98,
+      "max_dd_pct": 28.09,
+      "trades": 129,
+      "win_rate_pct": 31.8,
+      "pct_in_market": 13.6,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "MACD Signal Cross",
+      "total_return_pct": -31.59,
+      "sharpe": -10.82,
+      "max_dd_pct": 33.37,
+      "trades": 99,
+      "win_rate_pct": 16.2,
+      "pct_in_market": 25.4,
+      "verdict": "\u274c NO-GO"
+    },
+    {
+      "strategy": "HMM Adaptive",
+      "total_return_pct": -13.94,
+      "sharpe": -7.36,
+      "max_dd_pct": 14.18,
+      "trades": 73,
+      "win_rate_pct": 50.7,
+      "pct_in_market": 12.3,
+      "verdict": "\u274c NO-GO"
+    }
+  ]
+}
