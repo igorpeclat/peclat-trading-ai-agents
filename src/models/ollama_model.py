@@ -8,7 +8,7 @@ This module provides integration with locally running Ollama models.
 import requests
 import json
 from termcolor import cprint
-from .base_model import BaseModel
+from .base_model import BaseModel, ModelResponse
 
 class OllamaModel(BaseModel):
     """Implementation for local Ollama models"""
@@ -111,8 +111,9 @@ class OllamaModel(BaseModel):
             )
             
             if response.status_code == 200:
-                content = response.json().get("message", {}).get("content", "")
-                return content
+                raw = response.json()
+                content = raw.get("message", {}).get("content", "")
+                return ModelResponse(content=content, raw_response=raw, model_name=self.model_name)
             else:
                 cprint(f"❌ Ollama API error: {response.status_code}", "red")
                 cprint(f"Response: {response.text}", "red")

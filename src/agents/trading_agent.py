@@ -10,7 +10,7 @@ Handles all LLM-based trading decisions
 # AI Model Configuration (via Model Factory)
 # Available types: 'groq', 'openai', 'claude', 'deepseek', 'xai', 'ollama'
 # xAI's Grok is great for trading! Fast reasoning at 2M context window
-AI_MODEL_TYPE = 'xai'  # Change to: groq, openai, claude, deepseek, xai, ollama
+AI_MODEL_TYPE = 'ollama'  # Change to: groq, openai, claude, deepseek, xai, ollama
 AI_MODEL_NAME = None   # None = use default for model type, or specify model name
 
 # Available xAI models:
